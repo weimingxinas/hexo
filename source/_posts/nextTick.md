@@ -1,9 +1,9 @@
 ---
 title: nextTick
 date: 2019-07-06 14:02:55
-tags:
+tags: vue
 ---
-
+关于vue中的nextTick机制的降级
 ```javascript
 if (typeof setImmediate !== 'undefined' && isNative(setImmediate)) {
     timerFunc = () => {
